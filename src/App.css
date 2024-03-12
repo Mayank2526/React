@@ -1,0 +1,29 @@
+/* App.css */
+
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.data-box {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Four columns */
+  gap: 20px; /* Gap between items */
+  justify-content: center;
+}
+
+.data-item {
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  color: black;
+}
+ 
+.data-item p {
+  margin: 5px 0;
+}
