@@ -1,4 +1,7 @@
 /* App.css */
+body{
+    background-color:aquamarine;
+}
 
 .App {
     text-align: center;
@@ -8,15 +11,15 @@
   h2 {
     margin-bottom: 20px;
     text-align: center;
+    color: black;
   }
   
-  .data-box {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr); /* Four columns */
-    gap: 20px; /* Gap between items */
-    justify-content: center;
-  }
+ .data-box{
+  margin-top: 5%;
+ }
   
+
+
   .data-item {
    text-align: center;
     background-color: #f0f0f0;
@@ -32,6 +35,11 @@
     
     margin: 5px 0;
   }
-  
-  
+.btn{
+  display: flex;
+  justify-content: right;
+  color: black;
+  box-shadow: 0cap;
+}
+
   

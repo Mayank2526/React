@@ -16,12 +16,13 @@ function Search({ data }) {
   );
 
   return (
-    <div>
+    <div style={{ textAlign: 'center' }}>
       <input
         type="text"
-        placeholder="Search..."
+        placeholder="Search_Post..."
         value={searchTerm}
         onChange={handleSearch}
+        style={{ margin: '0 auto', backgroundColor:'white',color:'black'}}
       />
       <DataList data={filteredData} />
     </div>
